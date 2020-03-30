@@ -5,7 +5,7 @@
        http://dubbo.apache.org/schema/dubbo http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
 
     <!-- provider's application name, used for tracing dependency relationship -->
-    <dubbo:application name="hello -provider"/>
+    <dubbo:application name="hello-provider"/>
     <!-- use multicast registry center to export service -->
     <dubbo:registry address="zookeeper://192.168.1.104:2181"/>
     <!-- use dubbo protocol to export service on port 20880 -->
